@@ -1,0 +1,57 @@
+body{
+  background: #EB1767;
+}
+
+header{
+  background: #ae1f58;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.75em 3.5em;
+  max-height: 100px;
+  z-index: 1;
+}
+
+.site-logo{
+  display: inline-block;
+}
+
+.page-nav{
+  float: right;
+  padding: 1.5em;
+}
+
+.nav-link{
+  color: white;
+  display: inline;
+  padding-left: 2em;
+}
+
+.hero-content{
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  color: white;
+  margin: auto;
+  max-width: 600px;
+  padding-top: 100px;
+  align: justified;
+}
+
+.hero-headline{
+    line-height: 1.4;
+}
+
+.hero-message{
+  line-height:
+    1.5;
+}
+
+.partnership-logo{
+  margin: auto;
+  max-width: 800px;
+}
+
+.apply{
+  margin:auto;
+  max-width: 100px;
+}
