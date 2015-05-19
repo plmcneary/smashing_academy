@@ -7,8 +7,6 @@ body, h1, h2, h3, h4, h5 {
 .container{
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 h1{
@@ -99,7 +97,8 @@ nav{
 
 .timeline{
   display: block;
-  background-color: #292627;
+  background-image: url(assets/images/background_coder.jpg);
+  background-attachment: fixed;
 }
 
 .timeline-text{
@@ -119,8 +118,11 @@ nav{
 }
 
 .timeline-footer div{
+  background-color: #292627;
+}
+
+.timeline-img{
   background-color: white;
-  display: block;
 }
 
 /*ABOUT THE ACADEMY*/
