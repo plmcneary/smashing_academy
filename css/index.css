@@ -127,7 +127,7 @@ nav{
 
 .timeline{
   display: block;
-  background-image: url("../assets/images/background_coder.jpg");
+  background-image: url("../assets/Images/background_coder.jpg");
   background-attachment: fixed;
 }
 
@@ -291,7 +291,7 @@ tbody a{
 .contact-us{
   position: relative;
   display: block;
-  background-image: url(../assets/images/smashing_academy_map.png);
+  background-image: url(../assets/Images/smashing_academy_map.png);
   background-size: cover;
   min-height: 560px;
 }
