@@ -3,8 +3,8 @@
   <head>
       <meta charset="utf-8">
       <title>Smashing Academy</title>
-      <link rel="stylesheet" href="meyerweb_css_reset.css">
-      <link rel="stylesheet" href="index.css">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
 
@@ -33,16 +33,16 @@
     <section class="hero-content">
       <div class="container">
         <div class="hero-text">
-          <h1 class="hero-headline">
+          <h1 class="headline">
             WELCOME TO THE IRON YARD ACADEMY POWERED BY SMASHING BOXES
           </h1>
-          <p>
+          <p class="hero-text-p1">
             Durham’s only code school is the product of Smashing Boxes and its partnership with The Iron Yard Academy. Together we're building better developers to take on the Triangle’s technology economy.
           </p>
         </div>
       </div>
       <div class="container">
-          <img class="partnership-logo" src="http://academy.smashingboxes.com/assets/feature_image-58cbdddb7e095f2e4497da22bcb52be0.png">
+          <img class="partnership-logo" src="./assets/images/hero_logo.png">
       </div>
       <div class="container hero-end">
         <a class="apply-link" href="http://academy.smashingboxes.com/#enroll">APPLY
@@ -54,12 +54,12 @@
 
     <section class="timeline">
       <div class="container">
-        <div class="timeline-text">
-          <h1>WHAT IS THIS?</h1>
-          <p>
+        <div class="timeline-text text-container">
+          <h1 class="headline">WHAT IS THIS?</h1>
+          <p class="timeline-text-p1">
             Qualified programmers are among the most highly sought after professionals in today’s job market. THE IRON YARD ACADEMY POWERED BY SMASHING BOXES exists to help remedy this need by training - or retraining - the workforce of the future. No prerequisites, or liberal arts requirements; it’s simply the education of tomorrow.
           </p>
-          <p>
+          <p class="timeline-text-p2">
             Centered around practical application, each course combines teaching, mentorship, collaboration, and real world development work over 12 intensive weeks. By the end, our students emerge as professional, junior-level programmers and either jump straight into internships with one of our hiring partners or work with our team to find the right job.
           </p>
         </div>
@@ -69,31 +69,62 @@
 <!--TIMELINE FOOTER-->
 
     <section class="timeline-footer">
-      <div class="container">
-        <img class="timeline-img" src="assets/images/timeline.png">
+      <div class="timeline-container">
+        <div class="timeline-image-container">
+          <img class="timeline-img" src="assets/images/timeline.png">
+        </div>
       </div>
     </section>
 
 <!--ABOUT THE ACADEMY-->
 
     <section class="about-the-academy">
-      <div class="container">
-        <h1>ABOUT THE ACADEMY</h1>
-        <p>
+      <div class="container text-container">
+        <h1 class="headline">ABOUT THE ACADEMY</h1>
+        <p class="about-text-p1">
           This school represents a unique partnership between Smashing Boxes, a digital creative agency in Durham, NC, and The Iron Yard, a nationally respected code school.
         </p>
-        <p>
+        <p class="about-text-p2">
           To connect students directly with potential employers, Academy classes are held in the American Underground, in close proximity to some of the Triangle's most promising tech start-ups.
         </p>
 
-        <!--division-->
+        <hr>
 
-        <h2>MENTORS</h2>
+        <h2 class="mentors-header">MENTORS</h2>
 
-        <!--mentor grid thingy-->
+        <ul class="mentors-list">
+          <li class="mentor">
+            <img class="mentor-image" src="./assets/images/chris_davies.png">
+            <p class="mentor-name">
+              Christopher<br>Davies
+            </p>
+            <h4 class="mentor-position">Frontend Instructor</h4>
+          </li>
+          <li class="mentor">
+            <img class="mentor-image" src="./assets/images/mason_matthews.png">
+            <p class="mentor-name">
+              Mason<br>Matthews
+            </p>
+            <h4 class="mentor-position">Rails Instructor</h4>
+          </li>
+          <li class="mentor">
+            <img class="mentor-image" src="./assets/images/clinton_dreisbach.png">
+            <p class="mentor-name">
+              Clinton<br>Dreisbach
+            </p>
+            <h4 class="mentor-position">Python Instructor</h4>
+          </li>
+          <li class="mentor">
+            <img class="mentor-image" src="./assets/images/jessica_mitsch.png">
+            <p class="mentor-name">
+              Jessica<br>Mitsch
+            </p>
+            <h4 class="mentor-position">Campus Director</h4>
+          </li>
+        </ul>
 
         <p>
-          Do you share a passion for helping others and teaching? We're always looking for additional instructors as our company grows. Contact Us if you're interested.
+          Do you share a passion for helping others and teaching? We're always looking for additional instructors as our company grows. <a>Contact Us</a> if you're interested.
         </p>
       </div>
     </section>
@@ -101,15 +132,44 @@
 <!--APPLY TODAY!-->
 
     <section class="apply-today">
-      <div class="container">
-        <h1>APPLY TODAY!</h1>
-        <p>
-          Class sizes are kept small to facilitate collaborative learning and space will fill up quickly. Check out the FAQ Page to learn more.
+      <div class="container text-container">
+        <h1 class="headline">APPLY TODAY!</h1>
+        <p class="about-text-p2">
+          Class sizes are kept small to facilitate collaborative learning and space will fill up quickly. Check out the <a>FAQ</a> Page to learn more.
         </p>
 
-        <!--division-->
+        <hr>
 
-        <!--calendar grid thingy-->
+        <table class="schedule">
+          <thead>
+            <tr>
+              <th>Start Date</th>
+              <th>Course</th>
+              <th>Instructor</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>May 4th, 2015</th>
+              <th>Front End Engineering</th>
+              <th>Chris Davies</th>
+              <th><a>Apply</a></th>
+            </tr>
+            <tr>
+              <th>May 4th, 2015</th>
+              <th>Ruby on Rails</th>
+              <th>Mason Matthews</th>
+              <th><a>Apply</a></th>
+            </tr>
+            <tr>
+              <th>May 4th, 2015</th>
+              <th>Python Engineering</th>
+              <th>Clinton Dreisbach</th>
+              <th><a>Apply</a></th>
+            </tr>
+          </tbody>
+        </table>
 
       </div>
     </section>
@@ -117,16 +177,65 @@
 <!--CONTACT US-->
 
     <section class="contact-us">
-      <div>
-      <h1>CONTACT US</h1>
+      <div class="contact-overlay">
+        <div class="contact-deets">
+          <h1>CONTACT US</h1>
+          <ul class="contact-icon-list">
+            <li class="contact-icon">
+              <div class="contact-icon-block">
+                <img class="contact-img" src="./assets/images/contact-icon-location.png">
+              </div>
+              <div class="contact-address">
+                <p class="contact-text">
+                  334 Blackwell Street<br>
+                  Suite B017<br>
+                  Durham, NC 27701
+                </p>
+              </div>
+            </li>
+            <li class="contact-icon">
+              <div class="contact-icon-block">
+                <img class="contact-img" src="./assets/images/contact-icon-phone.png">
+              </div>
+              <p class="contact-text">
+                1-855-762-7446
+              </p>
+            </li>
+            <li class="contact-icon">
+              <div class="contact-icon-block">
+                <img class="contact-img" src="./assets/images/contact-icon-twitter.png">
+              </div>
+              <p class="contact-text">
+                @smashingboxes
+              </p>
+            </li>
+            <li class="contact-icon">
+              <div class="contact-icon-block">
+                <img class="contact-img" src="./assets/images/contact-icon-facebook.png">
+              </div>
+              <p class="contact-text">
+                /smashingboxes
+              </p>
+            </li class="contact-icon">
+          </ul>
+          <p class="contact-looking-for">
+            We’re looking for progressive business partners to help support the school! Contact us about joining the Durham Advisory Board. Feel free to reach out to academy@smashingboxes.com for details.
+          </p>
+        </div>
       </div>
     </section>
 
 <!--FOOTER-->
 
     <footer class="footer">
-      <img src="assets/images/footer_ironyard.png">
-      <img src="assets/images/footer_smashing.png">
+      <img src="assets/images/footer_ironyard.png" class="footer-tiy">
+      <img src="assets/images/footer_smashing.png" class="footer-sb">
+      <p class="copyright">©2014 THE IRON YARD<br>& SMASHINGBOXES</p>
+      <span class="footer-social">
+        <img src="assets/images/footer-icon-instagram.png" class="social-icon">
+        <img src="assets/images/footer-icon-twitter.png" class="social-icon">
+        <img src="assets/images/footer-icon-facebook.png" class="social-icon">
+      </span>
     </footer>
 
   </body>

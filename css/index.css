@@ -1,0 +1,379 @@
+/*GLOBAL*/
+
+body{
+  margin: 0;
+}
+
+body, h1, h2, h3, h4, h5 {
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  font-style: normal;
+}
+
+.container{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 2.5em;
+  line-height: 1.4;
+  text-align: left;
+}
+
+p{
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+.text-container{
+  max-width: 700px;
+  padding: 70px 0px;
+}
+
+hr{
+  width: 60%;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+/*HEADER*/
+
+nav{
+  display: block;
+  background: #941649;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.75em 3.5em;
+  max-height: 100px;
+  z-index: 1;
+}
+
+.nav-header{
+  float: left;
+}
+
+.nav-bar{
+  float: right;
+  padding: 2em 0;
+}
+
+.nav-link{
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  font-style: normal;
+  font-size: 14px / 100%;
+  color: white;
+  padding-left: 3em;
+}
+
+.headline{
+  margin-bottom: 0.5em;
+}
+
+/*HERO CONTENT*/
+
+.hero-content{
+  background: #EB1767;
+}
+
+.hero-text{
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  padding-top: 100px;
+  max-width: 700px;
+}
+
+.hero-text-p1{
+  padding-bottom: 2em;
+}
+
+.partnership-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-end{
+  height: 100px;
+}
+
+.apply-link{
+  color: white;
+  font-size: 1.25em;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  display: block;
+  padding: 1em;
+  border-radius: 6px;
+  width: 65px;
+  background-color: #ae1f58;
+  margin-top: 2em;
+  margin-right: auto;
+  margin-bottom: 5em;
+  margin-left: auto;
+}
+
+/*TIMELINE*/
+
+.timeline{
+  display: block;
+  background-image: url("../assets/images/background_coder.jpg");
+  background-attachment: fixed;
+}
+
+.timeline-text{
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  color: white;
+  margin: auto;
+  align: justified;
+}
+
+.timeline-text-p1{
+  margin-bottom: 0em;
+  padding-bottom: 1em;
+}
+
+/*TIMELINE FOOTER*/
+
+.timeline-footer{
+  background-color: #292627;
+}
+
+.timeline-container{
+  background-color: white;
+  width: 813px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timeline-image-container{
+  transition: width 1s;
+  background-color: #EE0965;
+  width: 0%;
+  height: 200px;
+}
+
+
+.timeline-image-container:hover  {
+  width: 100%;
+}
+
+/*ABOUT THE ACADEMY*/
+
+.about-the-academy{
+  display: block;
+  color: #4C4C4E;
+  background-color: white;
+}
+
+.about-text-p1{
+  margin-bottom: 0em;
+  padding-bottom: 1em;
+}
+
+.about-text-p2{
+  margin-bottom: 0em;
+  padding-bottom: 1em;
+}
+
+.mentors-header{
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.mentor{
+  width: 24%;
+  display: inline-block;
+  text-align: center;
+}
+
+.mentor-image-block{
+  display: inline-block;
+}
+
+.mentor-image{
+  max-width: 148px;
+  padding: 10px;
+}
+
+.mentor-name{
+  font-size: 1.3em;
+  font-weight: bold;
+  line-height: 1.4em;
+  color: #EB1767;
+}
+
+.mentor-position{
+  font-weight: bold;
+  padding-top: 0.4em;
+  padding-bottom: 2em;
+}
+
+/*APPLY TODAY!*/
+
+.apply-today{
+  display: block;
+  color: #4C4C4E;
+  background-color: #f4f4f4;
+}
+
+/*SCHEDULE TABLE*/
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-collapse: collapse;
+  background-color: grey;
+}
+
+table {
+  font-weight: bold;
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+
+thead th:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+thead th:nth-child(4) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+thead th {
+  vertical-align: middle;
+  font-size: 0.8em;
+  color: white;
+  line-height: 1.428571429em;
+  padding: 1% 3% 1% 3%;
+  box-sizing: border-box;
+}
+
+tbody th {
+  color: #626366;
+  font-size: 14px;
+  padding: 3% 4% 2% 4%;
+  margin: 0;
+
+}
+
+tbody tr th:nth-child(2) {
+  color: #EB1767;
+}
+
+tbody a{
+  color: white;
+  background-color: #EB1767;
+  text-decoration: none;
+  padding: 8px 12px 8px 12px;
+  margin: 0 15% 0 0;
+  border-radius: 3px;
+}
+
+/*CONTACT US*/
+
+.contact-us{
+  position: relative;
+  display: block;
+  background-image: url(../assets/images/smashing_academy_map.png);
+  background-size: cover;
+  min-height: 560px;
+}
+
+.contact-overlay{
+  position: absolute;
+  background-color: #EB1767;
+  right: 0;
+  width: 50%;
+  opacity: 0.8;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background
+}
+
+.contact-deets{
+  color: white;
+  padding: 3em 0em;
+  margin: auto;
+  width: 60%;
+}
+
+.contact-icon-list{
+  padding: 0.6em 0em;
+}
+
+.contact-icon{
+  padding-bottom: 0.6em;
+}
+
+.contact-icon-block{
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 0.2em
+}
+
+.contact-text{
+  display: inline;
+}
+
+.contact-image{
+  float: left;
+}
+
+.contact-address{
+  display: inline-block;
+}
+
+.contact-looking-for{
+  font-size: 16px;
+}
+
+/*FOOTER*/
+
+.footer{
+  display: block;
+  background-color: #292627;
+  padding: 20px 0px;
+}
+
+.footer-tiy{
+  padding: 0.5em 1em 0.5em 4em;
+}
+
+.footer-sb{
+  padding: 0.5em;
+}
+
+.copyright{
+  vertical-align: top;
+  display: inline-block;
+  font-size: 0.8em;
+  color: #4c4c4e;
+  padding: 19px 0px 0px 1em;
+}
+
+.footer-social{
+  float: right;
+  padding: 19px 4em 0px 0em;
+}
+
+.social-icon{
+  padding-left: 1em;
+}
